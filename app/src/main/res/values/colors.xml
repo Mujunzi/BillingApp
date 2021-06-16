@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="colorBG">#696969</color>
+    <color name="brownBG">#423A2D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#f5deb3</color>
+    <color name="wel_font_color">#008B8B</color>
+    <color name="wel_bg_color">#F7F7F7</color>
+    <color name="font_shallow">#8F8F8F</color>
+    <color name="font_deep">#696969</color>
+    <color name="font_fefbfb">#fefbfb</color>
+    <color name="col_e9661b">#e9661b</color>
+    <color name="col_dddd66">#dddd66</color>
+
+    <color name="font_1">#333333</color>
+    <color name="font_2">#fefbfb</color>
+    <color name="font_black">#000000</color>
+    <color name="font_3">#ff5252</color>
+    <color name="font_4">#777777</color>
+    <color name="font_5">#42d746</color>
+
+    <color name="order_bg_color">#f4f4f4</color>
+    <color name="col_c4c4c4">#c4c4c4</color>
+    <color name="col_e4e4e4">#e4e4e4</color>
+    <color name="col_ff7800">#ff7800</color>
+    <color name="col_ff6000">#ff6000</color>
+    <color name="col_f6be1f">#f6be1f</color>
+    <color name="col_2b2929">#2b2929</color>
+    <color name="col_67767c">#67767c</color>
+    <color name="col_bfbfbf">#bfbfbf</color>
+</resources>

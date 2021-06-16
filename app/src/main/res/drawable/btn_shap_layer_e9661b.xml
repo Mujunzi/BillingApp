@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:left="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="#63ff5252" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+            <item android:bottom="0dp" android:right="0dp">
+                <shape>
+                    <solid android:color="@color/col_ff6000" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:left="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="@color/col_bfbfbf" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+            <item android:bottom="0dp" android:right="0dp">
+                <shape>
+                    <solid android:color="@color/col_bfbfbf" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:left="0dp" android:top="0dp">
+                <shape>
+                    <solid android:color="#23ff5252" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+            <item android:bottom="0dp" android:right="0dp">
+                <shape>
+                    <solid android:color="@color/col_ff7800" />
+                    <size android:width="120dp" android:height="70dp" />
+                    <corners android:radius="45dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

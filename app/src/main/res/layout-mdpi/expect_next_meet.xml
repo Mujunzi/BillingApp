@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_customer_portrait"
+        android:layout_width="568dp"
+        android:layout_height="568dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="359dp"
+        android:layout_marginBottom="70dp"
+        android:background="@mipmap/ring_bg"
+        android:padding="30dp"
+        android:src="@mipmap/ring_default_src" />
+
+    <TextView
+        android:id="@+id/tv_customer_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_customer_portrait"
+        android:layout_centerHorizontal="true"
+        android:text="@string/default_name"
+        android:textColor="@color/font_black"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/tv_noshopping_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_customer_portrait"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/if_taking_goods"
+        android:textColor="@color/font_black"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_refresh_noshopping"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_noshopping_tips"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn_shap_layer_e9661b"
+        android:contentDescription="@string/refresh"
+        android:text="@string/refresh_the_bill"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv_expect_next_meet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="240dp"
+        android:text="@string/welcome_next_time"
+        android:textColor="@color/font_black"
+        android:textSize="92sp" />
+
+</RelativeLayout>

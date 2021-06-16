@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="290dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pay_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/total_qrcode_page"
+            android:textColor="@color/font_black"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/count_qrcode_page"
+            android:textColor="@color/font_black"
+            android:textSize="48sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pay_yuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:text="@string/yuan"
+            android:textAlignment="textEnd"
+            android:textColor="@color/col_ff7800"
+            android:textSize="73sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21.2"
+            android:textColor="@color/col_ff7800"
+            android:textSize="83sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pay_refresh_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="480dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/btn_shap_layer_e9661b"
+        android:contentDescription="@string/refresh"
+        android:gravity="center"
+        android:paddingStart="95dp"
+        android:paddingEnd="95dp"
+        android:text="@string/refresh_the_bill"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_overrun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="23dp"
+            android:gravity="center"
+            android:text="@string/auto_checked"
+            android:textAlignment="center"
+            android:textColor="@color/font_1"
+            android:textSize="43sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/pay_with_out_code"
+            android:textAlignment="center"
+            android:textColor="@color/font_4"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qr_code_iv"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/qr_code"
+        android:padding="12dp"
+        android:scaleType="centerCrop"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_scan_wechat_alipay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/sweep_the_code_to_pay"
+        android:textAlignment="center"
+        android:textColor="@color/font_4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_card_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="70dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:text="@string/nonsupport_card"
+        android:textAlignment="center"
+        android:textColor="@color/font_3"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iv_red_arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="70dp"
+        android:background="@mipmap/ic_card"
+        android:visibility="visible" />
+
+</LinearLayout>

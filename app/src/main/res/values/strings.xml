@@ -1,0 +1,188 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Billing</string>
+    <string name="app_settings">Billing Settings</string>
+    <string name="recognition">recognition</string>
+    <string name="payment">payment</string>
+    <string name="refresh">refresh</string>
+    <string name="see_you">see you</string>
+    <string name="line_pay">line</string>
+    <string name="covering">covering</string>
+    <string name="store_label">Lenovo unmanned store</string>
+
+    <string name="subtotal_line">a line.</string>
+    <string name="rec_icon">Recognition commodity icon</string>
+    <string name="qr_code">qr code.</string>
+
+    <string name="welcome_next_time">欢迎下次光临</string>
+    <string name="welcome_next_time_en">Thanks, see you again</string>
+
+    <string name="debt_label">上次消费未支付账单</string>
+    <string name="debt_label_en">Unpaid bill</string>
+
+    <string name="subtotal_label">总计</string>
+    <string name="subtotal_label_en">Total</string>
+
+    <string name="this_time_label">本次消费账单</string>
+    <string name="this_time_label_en">New bill</string>
+
+    <string name="mystery_customer">客官</string>
+    <string name="mystery_customer_en">Hi!</string>
+
+    <string name="welcome">欢迎光临</string>
+    <string name="welcome_en">Welcome</string>
+
+    <string name="store_label_chinese">联想来酷无人店</string>
+    <string name="store_label_english">Lenovo Lecoo Unmanned Store</string>
+
+    <string name="not_me">这不是我？</string>
+    <string name="not_me_en">Not me?</string>
+
+    <string name="check_the_bill">请您核对并支付账单</string>
+    <string name="check_the_bill_en">Please check and pay</string>
+
+    <string name="default_name">您好</string>
+    <string name="default_name_en">Hi!</string>
+
+    <string name="total">总计</string>
+    <string name="total_en">Total</string>
+
+    <string name="refresh_the_bill">重新生成账单</string>
+    <string name="refresh_the_bill_en">Refresh</string>
+
+    <string name="pay_without_code_opened">免密已开通</string>
+    <string name="pay_without_code_opened_en">One-Step\n Payment</string>
+
+    <string name="errorCode">CODE:</string>
+
+    <string name="count"><tools id="count_1">%1d</tools> 件商品</string>
+    <string name="count_en">Qty <tools id="count_1">%1d</tools></string>
+
+    <string name="recognition_remind">识别中请看上方摄像头</string>
+    <string name="recognition_remind_en">Identifying, please look at the camera</string>
+
+    <string name="recognition_refresh">正在重新识别</string>
+    <string name="recognition_refresh_en">Re-identifying</string>
+
+    <string name="do_not_be_blocked">保证商品标签不被遮挡</string>
+    <string name="do_not_be_blocked_en">Please keep product \n tags uncovered</string>
+
+    <string name="pay_with_out_code">二维码支付后，不再重复扣费</string>
+    <string name="pay_with_out_code_en">Shoppers paying via One-Step Payment can leave the store \n directly and then the payment will be done automatically</string>
+
+    <string name="sweep_the_code_to_pay">微信/支付宝扫码支付</string>
+    <string name="sweep_the_code_to_pay_en">Scan WeChat/Alipay QR code to pay</string>
+
+    <string name="job_card_to_pay1">您也可选择</string>
+    <string name="job_card_to_pay2">&#160;工卡支付</string>
+    <string name="job_card_to_pay_en1">Or pay</string>
+    <string name="job_card_to_pay_en2">&#160;via employee badge</string>
+
+    <string name="overrun">今日免密支付金额已达上限</string>
+    <string name="overrun_en">You\´ve reached One-Step Payment daily amount limit</string>
+
+    <string name="auto_checked">免密用户出门即自动扣费</string>
+    <string name="auto_checked_en">Shoppers paying via One-Step Payment can leave the store \n directly and then payments will be done automatically</string>
+
+    <string name="undetected">有商品未被识别？</string>
+
+    <string name="pay_success">支付成功</string>
+    <string name="pay_success_en">Payment is completed</string>
+
+    <string name="pay_failure">支付失败</string>
+    <string name="pay_failure_en">Payment failed</string>
+
+    <string name="pay_again">请重新支付</string>
+    <string name="pay_again_en">Please try again</string>
+
+    <string name="nonsupport_card">设备调试，工卡支付暂不支持</string>
+    <string name="nonsupport_card_en">Payment via employee badge is \ntemporarily unavailable</string>
+
+    <string name="use_other_payment">请使用下列方式支付</string>
+    <string name="use_other_payment_en">Please use WeChat pay or Alipay instead</string>
+
+    <string name="debt_can_not_auto_checked">您有欠费账单，无法自动扣款</string>
+    <string name="debt_can_not_auto_checked_en">You\'ve overdue bills, and cannot use One-Step Payment.\n To cancel the payment, please press the button behind you \n and exit the payment area</string>
+
+    <string name="times_over_can_not_auto_checked">今日免密次数已达上限，无法自动扣款</string>
+    <string name="times_over_can_not_auto_checked_en">You\´ve reached the daily limit on the number of times One-Step \n Payment can be used.To cancel the payment, please press \n the button behind you and exit the payment area</string>
+
+    <string name="bigger_money_can_not_auto_checked">今日免密金额已达上限，无法自动扣款</string>
+    <string name="bigger_money_can_not_auto_checked_en">You\'ve reached One-Step Payment daily amount limit.\n To cancel the payment, please press the button behind you \n and exit the payment area</string>
+
+    <string name="not_fount_instore_can_not_auto_checked">未发现该免密用户进店，无法自动扣款</string>
+    <string name="not_fount_instore_can_not_auto_checked_en">The user was not found to enter the store. To cancel the payment, please press \n the button behind you and exit the payment area</string>
+
+    <string name="card_pay_failure">工卡支付失败，请重试</string>
+    <string name="card_pay_failure_en">Payment failed, please try again</string>
+
+    <string name="pos_cant_use">工卡支付暂不可用</string>
+    <string name="pos_cant_use_en">Payment via employee badge is \n temporarily unavailable</string>
+
+    <string name="card_balance">卡内余额：<tools id="balance_1">%1$.2f</tools></string>
+    <string name="card_balance_en">Balance: <tools id="balance_1">%1$.2f</tools></string>
+
+    <string name="not_sufficient_funds">工卡余额不足</string>
+    <string name="not_sufficient_funds_en">Insufficient balance</string>
+
+    <string name="emergency">突发紧急情况</string>
+    <string name="emergency_en">This is an emergency!</string>
+
+    <string name="sorry">很抱歉</string>
+    <string name="sorry_en">Sorry</string>
+
+    <string name="leave_as_soon_as_possible">请尽快离店</string>
+    <string name="leave_as_soon_as_possible_en">Please evacuate immediately!</string>
+
+    <string name="contact_us">如有困扰，请致电 </string>
+    <string name="contact_us_en">Service hotline:</string>
+
+    <string name="device_malfunction">设备故障</string>
+    <string name="device_malfunction_en">The system is out of service</string>
+
+    <string name="use_another_gate">请从其他通道离店</string>
+    <string name="use_another_gate_en">Please leave the store from other exits</string>
+
+    <string name="default_customer_id">00000000000000000000000000010000</string>
+    <string name="yuan">¥</string>
+
+    <string name="recognize_again">重新扫描商品</string>
+    <string name="recognize_again_en">Click to regenerate your bill</string>
+    <string name="recognize_again_tips">if you have shopping</string>
+
+    <string name="leave_store">开门离店</string>
+    <string name="leave_store_en">Open the door</string>
+    <string name="leave_store_tips">if you don\'t have shopping</string>
+
+    <string name="exit_with_no_shopping">未购买商品，请从无购物通道出店</string>
+
+    <string name="building_bill_order">正在生成账单\n请耐心等待10s</string>
+    <string name="building_bill_order_en">Generating your bill,Please wait patiently for 10 seconds</string>
+
+    <string name="card_pay_failure_tips_bottom">To cancel the payment, please press the button \n behind you and exit the payment area</string>
+
+    <string name="language_zh">中文</string>
+    <string name="language_en">English</string>
+
+    <string name="confirm_goods_list">确认商品无误</string>
+    <string name="confirm_goods_list_en">Goods confirm</string>
+
+    <string name="coupon">优惠券 减￥<tools id="balance_1">%1$.2f</tools></string>
+    <string name="coupon_en">Coupon discount ￥<tools id="balance_1">%1$.2f</tools></string>
+
+    <string name="recognized_null_tips">如商品列表不符，请返回店中重新进入结算间</string>
+    <string name="recognized_null_tips_en">If the list of goods does not match, \n please back to the shop and re-enter the settlement room</string>
+
+    <string name="zero_goods_open_door3">无购物，开门离店</string>
+    <string name="zero_goods_open_door3_en">Open the door</string>
+
+    <string name="if_taking_goods">如有商品没被识别</string>
+    <string name="if_taking_goods_en">If there are unrecognized items</string>
+
+    <string name="total_qrcode_page">共</string>
+    <string name="total_qrcode_page_en">Total</string>
+
+    <string name="count_qrcode_page"><tools id="count_1">%1d</tools> 件商品，需支付</string>
+    <string name="count_qrcode_page_en">Qty <tools id="count_1">%1d</tools></string>
+
+
+</resources>

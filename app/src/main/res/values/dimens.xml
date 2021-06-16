@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s_font">18sp</dimen>
+    <dimen name="m_font">48sp</dimen>
+    <dimen name="l_font">56sp</dimen>
+    <dimen name="xl_font">68sp</dimen>
+    <dimen name="xxl_font">86sp</dimen>
+    <dimen name="sl_font">102sp</dimen>
+    <dimen name="bt_s_font">28sp</dimen>
+    <dimen name="bt_m_font">38sp</dimen>
+
+    <dimen name="free_1">36sp</dimen>
+</resources>

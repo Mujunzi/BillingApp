@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_no_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_quarter_circle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@mipmap/bg_quarter_circle"
+            android:contentDescription="@string/covering" />
+
+        <ImageView
+            android:id="@+id/iv_bird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="120dp"
+            android:background="@mipmap/ic_bird"
+            android:contentDescription="@string/covering" />
+
+        <ImageView
+            android:id="@+id/id_cover_bird"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@mipmap/bg_cover_bird"
+            android:contentDescription="@string/covering"
+            android:focusable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1060dp"
+            android:text="@string/welcome_next_time"
+            android:textAllCaps="false"
+            android:textColor="@color/font_1"
+            android:textSize="120sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_bill_error"
+            android:layout_width="670dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1100dp"
+            android:background="@mipmap/re_recognize_button"
+            android:padding="8dp"
+            android:text="@string/recognize_again_en"
+            android:textColor="@color/white"
+            android:textSize="@dimen/m_font" />
+
+        <TextView
+            android:id="@+id/tv_recognize_again_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1213dp"
+            android:text="@string/recognize_again_tips"
+            android:textColor="@color/col_c4c4c4"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_leave_store"
+            android:layout_width="670dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1304dp"
+            android:background="@mipmap/opendoor3_leave_store_button"
+            android:padding="8dp"
+            android:text="@string/leave_store_en"
+            android:textColor="@color/white"
+            android:textSize="@dimen/m_font" />
+
+        <TextView
+            android:id="@+id/tv_leave_store_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1416dp"
+            android:text="@string/leave_store_tips"
+            android:textColor="@color/col_c4c4c4"
+            android:textSize="28sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_exit_noshopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1370dp"
+            android:text="@string/exit_with_no_shopping"
+            android:textAllCaps="false"
+            android:textColor="@color/font_1"
+            android:textSize="42sp"
+            android:visibility="gone" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_portrait"
+            android:layout_width="640dp"
+            android:layout_height="640dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="218dp"
+            android:background="@mipmap/bg_default_portrait"
+            android:padding="16dp"
+            android:src="@color/brownBG"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="230dp"
+            android:ellipsize="end"
+            android:maxEms="5"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/default_name"
+            android:textColor="@color/font_3"
+            android:textSize="150sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="106dp"
+            android:text="@string/undetected"
+            android:textColor="@color/font_4"
+            android:textSize="36sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pay_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_pay_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:src="@mipmap/ic_pay_success" />
+
+        <TextView
+            android:id="@+id/tv_card_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/card_balance"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/l_font"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_pay_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="490dp"
+            android:gravity="center_horizontal"
+            android:text="@string/pay_success"
+            android:textColor="@color/font_5"
+            android:textSize="120sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome_next_time"
+            android:textColor="@color/font_black"
+            android:textSize="102sp" />
+
+        <TextView
+            android:id="@+id/tv_pay_fail_tips_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:gravity="center_horizontal"
+            android:text="@string/card_pay_failure_tips_bottom"
+            android:textColor="@color/font_black"
+            android:textSize="32sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</FrameLayout>

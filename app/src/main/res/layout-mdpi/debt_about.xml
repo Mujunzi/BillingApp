@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_debt_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debt_label"
+        android:textColor="@color/font_black"
+        android:textSize="30sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_debt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"
+        android:layerType="software"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/ll_subtotal_debt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_subtotal_last_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_subtotal_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="@string/subtotal_label"
+                android:textColor="@color/font_1"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/tv_subtotal_money_debt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:text="0.02"
+                android:textColor="@color/font_1"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/tv_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_subtotal_money_debt"
+                android:layout_marginEnd="15dp"
+                android:layout_toStartOf="@id/tv_subtotal_money_debt"
+                android:text="@string/yuan"
+                android:textColor="@color/font_1"
+                android:textSize="42sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_debt_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/font_4"
+            android:contentDescription="@string/subtotal_line" />
+
+        <TextView
+            android:id="@+id/tv_this_time_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="26dp"
+            android:text="@string/this_time_label"
+            android:textColor="@color/font_black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_recognition_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--<ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/anim_loading" />-->
+
+    <!--<com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:visibility="visible"
+        app:indicatorColor="@color/font_shallow"
+        app:indicatorName="LineSpinFadeLoaderIndicator" />-->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="42dp">
+
+        <!--Loading animation for gif pic,but there are too many sawtooth.
+         So we set visibility is GONE FOR the iv_lecoo_gif view in the layout file.-->
+        <ImageView
+            android:id="@+id/iv_lecoo_gif"
+            android:layout_width="888dp"
+            android:layout_height="563dp"
+            android:layout_marginTop="78dp"
+            android:contentDescription="@string/store_label_chinese"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_lecoo_png"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="315dp"
+            android:contentDescription="@string/store_label_chinese"
+            android:src="@mipmap/ic_logo_l"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_logo_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginEnd="24dp"
+            android:contentDescription="@string/store_label_chinese"
+            android:src="@mipmap/ic_plus"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_refresh_tips_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/recognition_refresh"
+        android:textAlignment="center"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/sl_font" />
+
+    <TextView
+        android:id="@+id/tv_refresh_tips_top_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/recognition_refresh_en"
+        android:textAlignment="center"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/xxl_font" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="367dp"
+        android:layout_marginBottom="55dp"
+        android:contentDescription="@string/do_not_be_blocked"
+        android:src="@mipmap/ic_label" />
+
+    <TextView
+        android:id="@+id/tv_refresh_tips_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="37dp"
+        android:text="@string/do_not_be_blocked"
+        android:textAlignment="center"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/m_font" />
+
+    <TextView
+        android:id="@+id/tv_refresh_tips_bottom_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/do_not_be_blocked_en"
+        android:textAlignment="center"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/free_1" />
+
+</LinearLayout>

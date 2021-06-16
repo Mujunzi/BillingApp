@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingTop="42dp"
+    android:paddingBottom="39dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/photo_iv"
+            android:layout_width="196.1dp"
+            android:layout_height="196.1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/bg_portrait"
+            android:padding="6dp"
+            android:scaleType="centerCrop"
+            android:transitionName="wx portrait"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="0dp" />
+
+        <TextView
+            android:id="@+id/tv_without_code_label"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@mipmap/bg_without_code"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"
+            android:text="@string/pay_without_code_opened"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxEms="6"
+                android:maxLines="1"
+                android:text="@string/default_name"
+                android:textColor="@color/font_black"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/check_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/check_the_bill"
+                android:textColor="@color/font_1"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_not_me"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bottom_border"
+                android:contentDescription="@string/not_me"
+                android:text="@string/not_me"
+                android:textColor="@color/col_2b2929"
+                android:textSize="36sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_change_language"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="235dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/language_btn_selector"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:text="@string/language_zh"
+            android:textColor="@color/font_black"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
