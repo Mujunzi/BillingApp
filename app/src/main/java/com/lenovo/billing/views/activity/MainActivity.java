@@ -91,7 +91,7 @@ public class MainActivity
         setContentView(R.layout.activity_default);
 
 
-        this.presenter = new ActPresenterImpl();
+        this.presenter = new ActPresenterImpl(this);
 
         ImageView ivFinishBilling = findViewById(R.id.iv_finish_billing);
         ImageView ivStartConfig = findViewById(R.id.iv_start_config);

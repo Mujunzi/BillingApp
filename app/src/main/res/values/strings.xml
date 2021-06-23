@@ -54,7 +54,7 @@
 
     <string name="errorCode">CODE:</string>
 
-    <string name="count"><tools id="count_1">%1d</tools> 件商品</string>
+    <string name="count"><tools id="count_1">1</tools> 件商品</string>
     <string name="count_en">Qty <tools id="count_1">%1d</tools></string>
 
     <string name="recognition_remind">识别中请看上方摄像头</string>
@@ -166,7 +166,7 @@
     <string name="confirm_goods_list">确认商品无误</string>
     <string name="confirm_goods_list_en">Goods confirm</string>
 
-    <string name="coupon">优惠券 减￥<tools id="balance_1">%1$.2f</tools></string>
+    <string name="coupon">优惠券 减￥<tools id="balance_1">0</tools></string>
     <string name="coupon_en">Coupon discount ￥<tools id="balance_1">%1$.2f</tools></string>
 
     <string name="recognized_null_tips">如商品列表不符，请返回店中重新进入结算间</string>

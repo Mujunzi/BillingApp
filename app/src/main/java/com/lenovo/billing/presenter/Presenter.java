@@ -83,4 +83,6 @@ public interface Presenter {
     void stopReader(boolean needCallBack);
 
     void openDoor3(int rId);
+
+    void netIsAlive();
 }

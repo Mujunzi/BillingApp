@@ -25,11 +25,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ProgressBar
-            android:layout_margin="30dp"
             android:id="@+id/pb_wait"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone" />
+            android:layout_margin="30dp"
+            android:visibility="visible" />
 
     </android.support.constraint.ConstraintLayout>
 

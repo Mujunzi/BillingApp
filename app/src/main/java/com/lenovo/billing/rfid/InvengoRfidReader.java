@@ -260,6 +260,11 @@ public class InvengoRfidReader
 
     private boolean mIsAlive = false;
 
+    public void netIsAlive() {
+        Log.d(TAG, "netIsAlive: " + true);
+        mIsAlive = true;
+    }
+
     public boolean isAlive() {
         return mIsAlive;
     }
@@ -368,5 +373,4 @@ public class InvengoRfidReader
 
         return true;
     }
-
 }

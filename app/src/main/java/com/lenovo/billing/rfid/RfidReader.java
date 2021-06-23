@@ -15,4 +15,6 @@ public interface RfidReader {
     boolean isAlive();
     void terminateToRead();
     void stopReader(boolean needCallBack);
+
+    void netIsAlive();
 }

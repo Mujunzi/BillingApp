@@ -263,6 +263,11 @@ public class RfidReaderInvengoSdk
         reader.readStop(needCallBack);
     }
 
+    @Override
+    public void netIsAlive() {
+        reader.netIsAlive();
+    }
+
     //
     // Implement RfidReaderViewable.
     //

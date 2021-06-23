@@ -94,6 +94,7 @@ public class Billing implements BillingProcess, CardPaymentHandler, SmartEquipme
             this.rfidReader = builder.buildRfidReader();
             this.rfidReader.register(this);
         }
+        rfidReader.netIsAlive();
 
         this.se = builder.buildSmartEquipment(this);
         this.se.register(this);

@@ -6,6 +6,7 @@ import android.util.Log;
 import com.lenovo.billing.entity.*;
 import com.lenovo.billing.model.*;
 import com.lenovo.billing.protocol.PayType;
+import com.lenovo.billing.views.protocol.IView;
 
 import java.util.ArrayList;
 
@@ -20,7 +21,10 @@ public class ActPresenterImpl
 
     private Billing billing;
 
-    public ActPresenterImpl() {
+    private IView view;
+
+    public ActPresenterImpl(IView view) {
+        this.view = view;
     }
 
     //
@@ -406,5 +410,10 @@ public class ActPresenterImpl
         if (billing != null) {
             billing.openDoor3(rId);
         }
+    }
+
+    @Override
+    public void netIsAlive() {
+        view.toRecoverState();
     }
 }
